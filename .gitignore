@@ -1,0 +1,135 @@
+git ignore C#
+
+# # Ignore os arquivos temporários do Visual Studio, os resultados da compilação e
+# # arquivos gerados por complementos populares do Visual Studio.
+
+# Arquivos específicos do usuário
+* .suo
+* .usuário
+* .sln.docstates
+
+# Resultados da construção
+
+[ Dd ] ebug /
+[ Rr ] liberar /
+x64 /
+[ Bb ] em /
+[ Oo ] bj /
+
+# Resultados do teste MSTest
+[ Tt ] est [ Rr ] resultado * /
+[ Bb ] construir [ Ll ] og. *
+
+* _i.c
+* _p.c
+* _i.h
+* .selvagem
+* .meta
+* .obj
+* .pch
+* .pdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+* .registro
+* .vspscc
+* .vssscc
+.constrói
+* .pidb
+* .registro
+* .svclog
+* .scc
+
+# Arquivos de cache do Visual C++
+ipch /
+* .aps
+* .ncb
+* .opensdf
+* .sdf
+* .arquivo de cache
+
+# Criador de perfil do Visual Studio
+* .psess
+* .vsp
+* .vspx
+
+# Kit de ferramentas de automação de orientação
+* .gpEstado
+
+# ReSharper é um complemento de codificação .NET
+_ReSharper * /
+* . [ Rr ] e [ Ss ] harpista
+* .DotSettings.usuário
+
+# Diretório Click-Once
+publicar /
+
+# Publicar saída da Web
+* .Publicar.xml
+* .pubxml
+* .azurePubxml
+
+# Diretório de pacotes NuGet
+# # TODO: Se você tiver o NuGet Package Restore habilitado, descomente a próxima linha
+pacotes /
+# # TODO: Se a ferramenta que você usa requer repositories.config, também descomente a próxima linha
+! pacotes / repositórios.config
+
+# Saída de compilação do Windows Azure
+csx /
+* .construir.csdef
+
+# Diretório de pacotes de aplicativos da Windows Store
+Pacotes de aplicativos /
+
+# Outros
+sql /
+* .Cache
+ClienteBin /
+[ Ss ] estilo [ Cc ] op. *
+! [ Ss ] estilo [ Cc ] op.targets
+~$ *
+* ~
+* .dbmdl
+* . [ Pp ] publicação.xml
+
+* .publicarconfigurações
+
+# Projetos RIA/Silverlight
+Código_gerado /
+
+# Fazer backup e relatar arquivos da conversão de um arquivo de projeto antigo para um mais novo
+# Versão do Visual Studio. Arquivos de backup não são necessários, porque temos o git ;-)
+_Arquivos_de_relatório_de_atualização /
+Cópia de segurança * /
+Log de atualização * .XML
+Log de atualização * .htm
+
+# Arquivos do SQL Server
+Dados do aplicativo / * .mdf
+Dados do aplicativo / * .ldf
+
+# =========================
+# Detritos de janelas
+# =========================
+
+# Caches de arquivos de imagem do Windows
+Polegares.db
+ehthumbs.db
+
+# Arquivo de configuração de pasta
+Área de trabalho.ini
+
+# Lixeira usada em compartilhamentos de arquivos
+$RECICLAGEM.BIN /
+
+# Arquivos de armazenamento de serviços de desktop Mac
+.DS_Loja
+
+_NCrunch *
